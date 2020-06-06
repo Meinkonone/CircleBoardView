@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/value_hint"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@+id/circleView"
+        android:gravity="center" />
+
+    <com.konone.circleboardview.CircleBoardView xmlns:cv="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/circleView"
+        android:layout_width="match_parent"
+        android:layout_height="106dp"
+        android:layout_centerInParent="true"
+        android:visibility="visible"
+        cv:backgroundColor="@color/circle_board_bg" />
+
+</RelativeLayout>

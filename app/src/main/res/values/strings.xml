@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CircleBoardView</string>
+    <string name="manual_auto_for_special">Auto</string>
+    <string name="auto">auto</string>
+</resources>

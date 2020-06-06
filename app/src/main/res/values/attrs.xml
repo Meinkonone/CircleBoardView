@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleBoardView">
+        <attr name="radius" format="dimension" />
+        <attr name="circleX" format="dimension" />
+        <attr name="circleY" format="dimension" />
+        <attr name="hintRadius" format="dimension" />
+        <attr name="backgroundColor" format="color" />
+        <attr name="thickSize" format="dimension" />
+        <attr name="thickColor" format="color" />
+        <attr name="thinSize" format="dimension" />
+        <attr name="thinColor" format="color" />
+        <attr name="hintTextSize" format="dimension" />
+        <attr name="hintColor" format="color" />
+        <attr name="selectedColor" format="color" />
+        <attr name="useVelocity" format="boolean"/>
+    </declare-styleable>
+</resources>

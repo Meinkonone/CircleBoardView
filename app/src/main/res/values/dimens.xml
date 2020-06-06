@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="board_center_x">180dp</dimen>
+    <dimen name="board_center_y">210dp</dimen>
+    <dimen name="board_scale_out_radius">210dp</dimen>
+    <dimen name="board_scale_out_radius_padding">3dp</dimen>
+    <dimen name="board_scale_in_radius">195dp</dimen>
+</resources>
